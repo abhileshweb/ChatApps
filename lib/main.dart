@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         title: 'Chat App',
         theme: AppTheme().light,
         darkTheme: AppTheme().dark,
-        themeMode: ThemeMode.dark,
-        home:  HomeScreen());
+        themeMode: ThemeMode.light,
+        home: HomeScreen());
   }
 }
