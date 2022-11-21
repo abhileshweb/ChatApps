@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'Chat App ',
+        title: 'Chat App',
         theme: AppTheme().light,
         darkTheme: AppTheme().dark,
         themeMode: ThemeMode.dark,
